@@ -5,23 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description"
-        content="BloxBits - Robux por menos. Compra simples com pagamento via PIX.">
+    <meta
+        name="description"
+        content="BloxBits - Robux por menos com pagamento via PIX."
+    >
 
     <title>BloxBits | Robux por menos</title>
 
-    <!-- ÍCONE DA ABA -->
-    <link rel="icon" type="image/svg+xml" href="assets/logos/logo.svg">
+    <link
+        rel="icon"
+        type="image/png"
+        href="assets/imagens/logo.png"
+    >
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- LUZES GLOBAIS -->
-    <div class="ambient-light ambient-1"></div>
-    <div class="ambient-light ambient-2"></div>
-    <div class="ambient-light ambient-3"></div>
+
+    <!-- =====================================
+         LUZES GLOBAIS
+    ====================================== -->
+
+    <div class="ambient ambient-orange"></div>
+    <div class="ambient ambient-purple"></div>
+    <div class="ambient ambient-pink"></div>
+
 
 
     <!-- =====================================
@@ -35,8 +45,8 @@
             <a href="#inicio" class="brand">
 
                 <img
-                    src="assets/logos/logo.svg"
-                    alt="BloxBits"
+                    src="assets/imagens/logo.png"
+                    alt="Logo BloxBits"
                 >
 
                 <span>BloxBits</span>
@@ -88,21 +98,20 @@
 
         <section class="hero" id="inicio">
 
-            <div class="hero-light hero-light-orange"></div>
-            <div class="hero-light hero-light-purple"></div>
-            <div class="hero-light hero-light-pink"></div>
+            <div class="hero-light hero-orange"></div>
+            <div class="hero-light hero-purple"></div>
+            <div class="hero-light hero-pink"></div>
 
 
             <div class="container hero-grid">
 
 
-                <!-- TEXTO -->
-
                 <div class="hero-content">
 
-                    <div class="badge">
 
-                        <span class="badge-dot"></span>
+                    <div class="availability-badge">
+
+                        <span></span>
 
                         ROBUX DISPONÍVEL
 
@@ -113,9 +122,9 @@
 
                         SEU ROBUX.
 
-                        <span>
+                        <strong>
                             POR MENOS.
-                        </span>
+                        </strong>
 
                     </h1>
 
@@ -129,56 +138,88 @@
 
                     <div class="hero-actions">
 
-                        <a href="#robux" class="primary-button">
-
+                        <a href="#robux" class="button-primary">
                             Comprar Robux
-
-                            <span>→</span>
-
                         </a>
 
-
-                        <a href="#como-funciona" class="secondary-button">
-
+                        <a href="#como-funciona" class="button-secondary">
                             Como funciona
-
                         </a>
 
                     </div>
+
 
 
                     <div class="hero-trust">
 
 
-                        <div>
+                        <div class="trust-mini">
 
-                            <strong>PIX</strong>
+                            <img
+                                src="assets/logos/pix.svg"
+                                alt=""
+                            >
 
-                            <span>Pagamento</span>
+                            <div>
+
+                                <strong>
+                                    PIX
+                                </strong>
+
+                                <span>
+                                    Pagamento
+                                </span>
+
+                            </div>
 
                         </div>
 
 
-                        <div class="separator"></div>
+                        <div class="mini-separator"></div>
 
 
-                        <div>
+                        <div class="trust-mini">
 
-                            <strong>10 opções</strong>
+                            <img
+                                src="assets/imagens/coin.png"
+                                alt=""
+                            >
 
-                            <span>de Robux</span>
+                            <div>
+
+                                <strong>
+                                    10 opções
+                                </strong>
+
+                                <span>
+                                    de Robux
+                                </span>
+
+                            </div>
 
                         </div>
 
 
-                        <div class="separator"></div>
+                        <div class="mini-separator"></div>
 
 
-                        <div>
+                        <div class="trust-mini">
 
-                            <strong>Suporte</strong>
+                            <div class="support-mini">
+                                ?
+                            </div>
 
-                            <span>para pedidos</span>
+                            <div>
+
+                                <strong>
+                                    Suporte
+                                </strong>
+
+                                <span>
+                                    para pedidos
+                                </span>
+
+                            </div>
 
                         </div>
 
@@ -189,29 +230,35 @@
 
 
 
-                <!-- PERSONAGEM / IMAGEM -->
+                <!-- HERO IMAGE -->
 
                 <div class="hero-visual">
 
-                    <div class="character-light character-light-orange"></div>
-                    <div class="character-light character-light-purple"></div>
+                    <div class="character-glow glow-orange"></div>
+                    <div class="character-glow glow-purple"></div>
+
+                    <div class="hero-particles particle-one"></div>
+                    <div class="hero-particles particle-two"></div>
+                    <div class="hero-particles particle-three"></div>
 
                     <img
                         src="assets/imagens/topo.png"
-                        alt="BloxBits"
+                        alt="Personagem BloxBits"
                         class="hero-character"
                     >
 
-                    <div class="hero-platform"></div>
+                    <div class="hero-ground-light"></div>
 
                 </div>
+
 
             </div>
 
 
-            <div class="hero-fade"></div>
+            <div class="hero-bottom-fade"></div>
 
         </section>
+
 
 
 
@@ -221,12 +268,13 @@
 
         <section class="products-section" id="robux">
 
-            <div class="section-glow products-glow"></div>
+            <div class="product-background-light"></div>
 
 
             <div class="container">
 
-                <div class="section-header">
+
+                <div class="section-heading">
 
 
                     <div>
@@ -251,25 +299,32 @@
 
 
 
-                <div class="products-grid">
+                <div class="product-grid">
 
 
                     <!-- 100 -->
 
                     <article class="product-card">
 
+                        <div class="card-light"></div>
+
+
                         <div class="product-top">
 
-                            <div class="robux-icon">
+                            <div class="coin-holder">
+
+                                <div class="coin-glow"></div>
 
                                 <img
-                                    src="assets/logos/robux.svg"
-                                    alt="Robux"
+                                    src="assets/imagens/coin.png"
+                                    alt=""
                                 >
 
                             </div>
 
-                            <span class="available-small">
+
+                            <span class="status">
+                                <i></i>
                                 Disponível
                             </span>
 
@@ -281,14 +336,16 @@
                         </h3>
 
 
-                        <p class="product-description">
+                        <p>
                             Para aquela compra rápida dentro do jogo.
                         </p>
 
 
-                        <div class="product-price">
+                        <div class="price">
 
-                            <span>R$</span>
+                            <small>
+                                R$
+                            </small>
 
                             <strong>
                                 4,90
@@ -305,35 +362,50 @@
 
 
 
+
                     <!-- 200 -->
 
                     <article class="product-card">
 
+                        <div class="card-light"></div>
+
+
                         <div class="product-top">
 
-                            <div class="robux-icon">
+                            <div class="coin-holder">
 
-                                <img src="assets/logos/robux.svg" alt="Robux">
+                                <div class="coin-glow"></div>
+
+                                <img
+                                    src="assets/imagens/coin.png"
+                                    alt=""
+                                >
 
                             </div>
 
-                            <span class="available-small">
+                            <span class="status">
+                                <i></i>
                                 Disponível
                             </span>
 
                         </div>
 
-                        <h3>200 Robux</h3>
 
-                        <p class="product-description">
+                        <h3>
+                            200 Robux
+                        </h3>
+
+                        <p>
                             Mais Robux para aproveitar seus jogos.
                         </p>
 
-                        <div class="product-price">
+                        <div class="price">
 
-                            <span>R$</span>
+                            <small>R$</small>
 
-                            <strong>9,90</strong>
+                            <strong>
+                                9,90
+                            </strong>
 
                         </div>
 
@@ -342,6 +414,7 @@
                         </button>
 
                     </article>
+
 
 
 
@@ -349,31 +422,45 @@
 
                     <article class="product-card">
 
+                        <div class="card-light"></div>
+
+
                         <div class="product-top">
 
-                            <div class="robux-icon">
+                            <div class="coin-holder">
 
-                                <img src="assets/logos/robux.svg" alt="Robux">
+                                <div class="coin-glow"></div>
+
+                                <img
+                                    src="assets/imagens/coin.png"
+                                    alt=""
+                                >
 
                             </div>
 
-                            <span class="available-small">
+                            <span class="status">
+                                <i></i>
                                 Disponível
                             </span>
 
                         </div>
 
-                        <h3>300 Robux</h3>
 
-                        <p class="product-description">
+                        <h3>
+                            300 Robux
+                        </h3>
+
+                        <p>
                             Uma opção simples para suas próximas compras.
                         </p>
 
-                        <div class="product-price">
+                        <div class="price">
 
-                            <span>R$</span>
+                            <small>R$</small>
 
-                            <strong>14,90</strong>
+                            <strong>
+                                14,90
+                            </strong>
 
                         </div>
 
@@ -382,6 +469,7 @@
                         </button>
 
                     </article>
+
 
 
 
@@ -389,31 +477,45 @@
 
                     <article class="product-card">
 
+                        <div class="card-light"></div>
+
+
                         <div class="product-top">
 
-                            <div class="robux-icon">
+                            <div class="coin-holder">
 
-                                <img src="assets/logos/robux.svg" alt="Robux">
+                                <div class="coin-glow"></div>
+
+                                <img
+                                    src="assets/imagens/coin.png"
+                                    alt=""
+                                >
 
                             </div>
 
-                            <span class="available-small">
+                            <span class="status">
+                                <i></i>
                                 Disponível
                             </span>
 
                         </div>
 
-                        <h3>400 Robux</h3>
 
-                        <p class="product-description">
+                        <h3>
+                            400 Robux
+                        </h3>
+
+                        <p>
                             Uma das opções mais acessíveis da BloxBits.
                         </p>
 
-                        <div class="product-price">
+                        <div class="price">
 
-                            <span>R$</span>
+                            <small>R$</small>
 
-                            <strong>17,90</strong>
+                            <strong>
+                                17,90
+                            </strong>
 
                         </div>
 
@@ -422,6 +524,7 @@
                         </button>
 
                     </article>
+
 
 
 
@@ -429,31 +532,45 @@
 
                     <article class="product-card">
 
+                        <div class="card-light"></div>
+
+
                         <div class="product-top">
 
-                            <div class="robux-icon">
+                            <div class="coin-holder">
 
-                                <img src="assets/logos/robux.svg" alt="Robux">
+                                <div class="coin-glow"></div>
+
+                                <img
+                                    src="assets/imagens/coin.png"
+                                    alt=""
+                                >
 
                             </div>
 
-                            <span class="available-small">
+                            <span class="status">
+                                <i></i>
                                 Disponível
                             </span>
 
                         </div>
 
-                        <h3>500 Robux</h3>
 
-                        <p class="product-description">
+                        <h3>
+                            500 Robux
+                        </h3>
+
+                        <p>
                             Um pacote intermediário para sua conta.
                         </p>
 
-                        <div class="product-price">
+                        <div class="price">
 
-                            <span>R$</span>
+                            <small>R$</small>
 
-                            <strong>23,80</strong>
+                            <strong>
+                                23,80
+                            </strong>
 
                         </div>
 
@@ -462,6 +579,7 @@
                         </button>
 
                     </article>
+
 
 
 
@@ -469,31 +587,45 @@
 
                     <article class="product-card">
 
+                        <div class="card-light"></div>
+
+
                         <div class="product-top">
 
-                            <div class="robux-icon">
+                            <div class="coin-holder">
 
-                                <img src="assets/logos/robux.svg" alt="Robux">
+                                <div class="coin-glow"></div>
+
+                                <img
+                                    src="assets/imagens/coin.png"
+                                    alt=""
+                                >
 
                             </div>
 
-                            <span class="available-small">
+                            <span class="status">
+                                <i></i>
                                 Disponível
                             </span>
 
                         </div>
 
-                        <h3>600 Robux</h3>
 
-                        <p class="product-description">
+                        <h3>
+                            600 Robux
+                        </h3>
+
+                        <p>
                             Mais liberdade para gastar dentro do Roblox.
                         </p>
 
-                        <div class="product-price">
+                        <div class="price">
 
-                            <span>R$</span>
+                            <small>R$</small>
 
-                            <strong>26,90</strong>
+                            <strong>
+                                26,90
+                            </strong>
 
                         </div>
 
@@ -502,6 +634,7 @@
                         </button>
 
                     </article>
+
 
 
 
@@ -509,31 +642,45 @@
 
                     <article class="product-card">
 
+                        <div class="card-light"></div>
+
+
                         <div class="product-top">
 
-                            <div class="robux-icon">
+                            <div class="coin-holder">
 
-                                <img src="assets/logos/robux.svg" alt="Robux">
+                                <div class="coin-glow"></div>
+
+                                <img
+                                    src="assets/imagens/coin.png"
+                                    alt=""
+                                >
 
                             </div>
 
-                            <span class="available-small">
+                            <span class="status">
+                                <i></i>
                                 Disponível
                             </span>
 
                         </div>
 
-                        <h3>700 Robux</h3>
 
-                        <p class="product-description">
+                        <h3>
+                            700 Robux
+                        </h3>
+
+                        <p>
                             Para quem quer aumentar ainda mais o saldo.
                         </p>
 
-                        <div class="product-price">
+                        <div class="price">
 
-                            <span>R$</span>
+                            <small>R$</small>
 
-                            <strong>31,80</strong>
+                            <strong>
+                                31,80
+                            </strong>
 
                         </div>
 
@@ -542,6 +689,7 @@
                         </button>
 
                     </article>
+
 
 
 
@@ -549,31 +697,45 @@
 
                     <article class="product-card">
 
+                        <div class="card-light"></div>
+
+
                         <div class="product-top">
 
-                            <div class="robux-icon">
+                            <div class="coin-holder">
 
-                                <img src="assets/logos/robux.svg" alt="Robux">
+                                <div class="coin-glow"></div>
+
+                                <img
+                                    src="assets/imagens/coin.png"
+                                    alt=""
+                                >
 
                             </div>
 
-                            <span class="available-small">
+                            <span class="status">
+                                <i></i>
                                 Disponível
                             </span>
 
                         </div>
 
-                        <h3>800 Robux</h3>
 
-                        <p class="product-description">
+                        <h3>
+                            800 Robux
+                        </h3>
+
+                        <p>
                             Mais Robux para aproveitar como quiser.
                         </p>
 
-                        <div class="product-price">
+                        <div class="price">
 
-                            <span>R$</span>
+                            <small>R$</small>
 
-                            <strong>34,80</strong>
+                            <strong>
+                                34,80
+                            </strong>
 
                         </div>
 
@@ -582,6 +744,7 @@
                         </button>
 
                     </article>
+
 
 
 
@@ -589,31 +752,45 @@
 
                     <article class="product-card">
 
+                        <div class="card-light"></div>
+
+
                         <div class="product-top">
 
-                            <div class="robux-icon">
+                            <div class="coin-holder">
 
-                                <img src="assets/logos/robux.svg" alt="Robux">
+                                <div class="coin-glow"></div>
+
+                                <img
+                                    src="assets/imagens/coin.png"
+                                    alt=""
+                                >
 
                             </div>
 
-                            <span class="available-small">
+                            <span class="status">
+                                <i></i>
                                 Disponível
                             </span>
 
                         </div>
 
-                        <h3>900 Robux</h3>
 
-                        <p class="product-description">
+                        <h3>
+                            900 Robux
+                        </h3>
+
+                        <p>
                             Quase mil Robux para sua conta.
                         </p>
 
-                        <div class="product-price">
+                        <div class="price">
 
-                            <span>R$</span>
+                            <small>R$</small>
 
-                            <strong>38,00</strong>
+                            <strong>
+                                38,00
+                            </strong>
 
                         </div>
 
@@ -625,42 +802,65 @@
 
 
 
+
                     <!-- 1000 -->
 
                     <article class="product-card featured">
 
+                        <div class="featured-glow"></div>
+
+
                         <div class="featured-label">
-                            MAIS ESCOLHIDO
+                            ★ MAIS ESCOLHIDO
                         </div>
 
 
                         <div class="product-top">
 
-                            <div class="robux-icon">
+                            <div class="coin-holder featured-coin">
 
-                                <img src="assets/logos/robux.svg" alt="Robux">
+                                <div class="coin-glow"></div>
+
+                                <img
+                                    src="assets/imagens/coin.png"
+                                    alt=""
+                                >
 
                             </div>
 
-                            <span class="available-small">
+                            <span class="status">
+                                <i></i>
                                 Disponível
                             </span>
 
                         </div>
 
-                        <h3>1.000 Robux</h3>
 
-                        <p class="product-description">
+                        <h3>
+                            1.000 Robux
+                        </h3>
+
+
+                        <p>
                             Um pacote completo com ótimo custo-benefício.
                         </p>
 
-                        <div class="product-price">
 
-                            <span>R$</span>
+                        <div class="price">
 
-                            <strong>42,00</strong>
+                            <small>R$</small>
+
+                            <strong>
+                                42,00
+                            </strong>
 
                         </div>
+
+
+                        <span class="highlight-copy">
+                            DESTAQUE BLOXBITS
+                        </span>
+
 
                         <button>
                             Comprar
@@ -677,13 +877,15 @@
 
 
 
+
         <!-- =====================================
              PIX
         ====================================== -->
 
         <section class="pix-section" id="pix">
 
-            <div class="pix-background-glow"></div>
+
+            <div class="pix-section-glow"></div>
 
 
             <div class="container">
@@ -692,26 +894,28 @@
                 <div class="pix-card">
 
 
-                    <div class="pix-visual">
-
-                        <div class="pix-glow"></div>
+                    <div class="pix-character-area">
 
 
-                        <div class="pix-icon-wrapper">
+                        <div class="pix-character-glow"></div>
 
-                            <img
-                                src="assets/logos/pix.svg"
-                                alt="PIX"
-                                class="pix-icon"
-                            >
 
-                        </div>
+                        <img
+                            src="assets/imagens/pix.png"
+                            alt="Pagamento via PIX"
+                            class="pix-character"
+                        >
+
+
+                        <div class="pix-ground"></div>
+
 
                     </div>
 
 
 
                     <div class="pix-content">
+
 
                         <span class="eyebrow">
                             PAGAMENTO
@@ -739,14 +943,22 @@
 
 
 
-                        <div class="pix-benefits">
+                        <div class="pix-features">
 
 
                             <div>
 
-                                <span>✓</span>
+                                <span class="feature-icon">
 
-                                <p>
+                                    <img
+                                        src="assets/logos/pix.svg"
+                                        alt=""
+                                    >
+
+                                </span>
+
+
+                                <div>
 
                                     <strong>
                                         Exclusivamente PIX
@@ -756,7 +968,7 @@
                                         Nosso único método de pagamento
                                     </small>
 
-                                </p>
+                                </div>
 
                             </div>
 
@@ -764,9 +976,11 @@
 
                             <div>
 
-                                <span>✓</span>
+                                <span class="feature-check">
+                                    ✓
+                                </span>
 
-                                <p>
+                                <div>
 
                                     <strong>
                                         Processo simples
@@ -776,7 +990,7 @@
                                         Sem precisar cadastrar cartão
                                     </small>
 
-                                </p>
+                                </div>
 
                             </div>
 
@@ -784,9 +998,11 @@
 
                             <div>
 
-                                <span>✓</span>
+                                <span class="feature-check">
+                                    ✓
+                                </span>
 
-                                <p>
+                                <div>
 
                                     <strong>
                                         Pagamento direto
@@ -796,7 +1012,7 @@
                                         Confira os dados antes de pagar
                                     </small>
 
-                                </p>
+                                </div>
 
                             </div>
 
@@ -804,13 +1020,14 @@
                         </div>
 
 
-                        <a href="#robux" class="primary-button">
 
+                        <a
+                            href="#robux"
+                            class="button-primary"
+                        >
                             Escolher Robux
-
-                            <span>→</span>
-
                         </a>
+
 
                     </div>
 
@@ -823,6 +1040,7 @@
 
 
 
+
         <!-- =====================================
              COMO FUNCIONA
         ====================================== -->
@@ -830,25 +1048,32 @@
         <section class="steps-section" id="como-funciona">
 
 
-            <div class="section-light steps-light"></div>
+            <div class="steps-glow"></div>
 
 
             <div class="container">
 
 
-                <div class="section-header centered">
+                <div class="section-heading centered">
 
-                    <span class="eyebrow">
-                        SEM COMPLICAÇÃO
-                    </span>
 
-                    <h2>
-                        COMO FUNCIONA?
-                    </h2>
+                    <div>
+
+                        <span class="eyebrow">
+                            SEM COMPLICAÇÃO
+                        </span>
+
+                        <h2>
+                            COMO FUNCIONA?
+                        </h2>
+
+                    </div>
+
 
                     <p>
                         Seu pedido em três etapas.
                     </p>
+
 
                 </div>
 
@@ -867,7 +1092,7 @@
                         <div class="step-icon">
 
                             <img
-                                src="assets/logos/robux.svg"
+                                src="assets/imagens/coin.png"
                                 alt=""
                             >
 
@@ -877,7 +1102,6 @@
                         <h3>
                             Escolha seus Robux
                         </h3>
-
 
                         <p>
                             Selecione a quantidade ideal para você.
@@ -894,7 +1118,7 @@
                         </span>
 
 
-                        <div class="step-icon pix-step">
+                        <div class="step-icon">
 
                             <img
                                 src="assets/logos/pix.svg"
@@ -907,7 +1131,6 @@
                         <h3>
                             Pague via PIX
                         </h3>
-
 
                         <p>
                             Finalize seu pedido utilizando PIX.
@@ -924,7 +1147,7 @@
                         </span>
 
 
-                        <div class="step-icon check-step">
+                        <div class="step-icon check">
                             ✓
                         </div>
 
@@ -932,7 +1155,6 @@
                         <h3>
                             Acompanhe seu pedido
                         </h3>
-
 
                         <p>
                             Siga as instruções apresentadas após a compra.
@@ -949,6 +1171,7 @@
 
 
 
+
         <!-- =====================================
              CONFIANÇA
         ====================================== -->
@@ -956,7 +1179,7 @@
         <section class="trust-section">
 
 
-            <div class="trust-light"></div>
+            <div class="trust-glow"></div>
 
 
             <div class="container trust-grid">
@@ -989,12 +1212,12 @@
 
 
 
-                <div class="trust-items">
+                <div class="trust-list">
 
 
-                    <div class="trust-item">
+                    <div class="trust-row">
 
-                        <span class="trust-check">
+                        <span>
                             ✓
                         </span>
 
@@ -1015,9 +1238,9 @@
 
 
 
-                    <div class="trust-item">
+                    <div class="trust-row">
 
-                        <span class="trust-check">
+                        <span>
                             ✓
                         </span>
 
@@ -1038,9 +1261,9 @@
 
 
 
-                    <div class="trust-item">
+                    <div class="trust-row">
 
-                        <span class="trust-check">
+                        <span>
                             ✓
                         </span>
 
@@ -1062,10 +1285,10 @@
 
                 </div>
 
-
             </div>
 
         </section>
+
 
 
 
@@ -1079,7 +1302,7 @@
             <div class="container faq-grid">
 
 
-                <div class="faq-title">
+                <div class="faq-heading">
 
                     <span class="eyebrow">
                         DÚVIDAS?
@@ -1108,12 +1331,11 @@
                         </summary>
 
                         <p>
-                            As instruções de entrega serão
-                            apresentadas durante o processo do pedido.
+                            As instruções de entrega serão apresentadas
+                            durante o processo do pedido.
                         </p>
 
                     </details>
-
 
 
                     <details>
@@ -1123,12 +1345,11 @@
                         </summary>
 
                         <p>
-                            Atualmente a BloxBits aceita
-                            exclusivamente pagamentos via PIX.
+                            Atualmente a BloxBits aceita exclusivamente
+                            pagamentos via PIX.
                         </p>
 
                     </details>
-
 
 
                     <details>
@@ -1145,7 +1366,6 @@
                     </details>
 
 
-
                     <details>
 
                         <summary>
@@ -1153,12 +1373,11 @@
                         </summary>
 
                         <p>
-                            As informações necessárias serão
-                            apresentadas após a realização da compra.
+                            As informações necessárias serão apresentadas
+                            após a realização da compra.
                         </p>
 
                     </details>
-
 
 
                     <details>
@@ -1169,8 +1388,7 @@
 
                         <p>
                             Não. A BloxBits é uma loja independente
-                            e não possui afiliação oficial com
-                            Roblox Corporation.
+                            e não possui afiliação oficial com Roblox Corporation.
                         </p>
 
                     </details>
@@ -1187,6 +1405,7 @@
 
 
 
+
     <!-- =====================================
          FOOTER
     ====================================== -->
@@ -1197,7 +1416,7 @@
         <div class="footer-glow"></div>
 
 
-        <div class="container footer-main">
+        <div class="container footer-grid">
 
 
             <div class="footer-brand">
@@ -1206,7 +1425,7 @@
                 <a href="#inicio" class="brand">
 
                     <img
-                        src="assets/logos/logo.svg"
+                        src="assets/imagens/logo.png"
                         alt="BloxBits"
                     >
 
@@ -1220,7 +1439,6 @@
                 <p>
                     Seu Robux. Por menos.
                 </p>
-
 
             </div>
 
@@ -1297,16 +1515,13 @@
 
         <div class="container footer-bottom">
 
-
             <p>
                 © 2026 BloxBits. Todos os direitos reservados.
             </p>
 
-
             <p>
                 BloxBits não possui afiliação oficial com Roblox Corporation.
             </p>
-
 
         </div>
 
